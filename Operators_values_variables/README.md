@@ -23,29 +23,29 @@
 
 Исходный код:
 
-a = 12;
-b = 'number';
-c = false;
-d = null;
-e = undefined;
-f = 123.34;
-g = '1' + 1;
-h = 15 / 0;
-i = -'5';
-j = 5 == '5'
+a = 12;<br>
+b = 'number';<br>
+c = false;<br>
+d = null;<br>
+e = undefined;<br>
+f = 123.34;<br>
+g = '1' + 1;<br>
+h = 15 / 0;<br>
+i = -'5';<br>
+j = 5 == '5'<br>
 
-at = typeof a === 'number'; // true
-bt = typeof b === 'SOME'; // false, а нужно чтобы все были true
-ct = typeof c === 'SOME';
-dt = typeof d === 'SOME';
-et = typeof e === 'SOME';
-ft = typeof f === 'SOME';
-gt = typeof g === 'SOME';
-ht = typeof h === 'SOME';
-it = typeof i === 'SOME';
-jt = typeof j === 'SOME';
+at = typeof a === 'number'; // true<br>
+bt = typeof b === 'SOME'; // false, а нужно чтобы все были true<br>
+ct = typeof c === 'SOME';<br>
+dt = typeof d === 'SOME';<br>
+et = typeof e === 'SOME';<br>
+ft = typeof f === 'SOME';<br>
+gt = typeof g === 'SOME';<br>
+ht = typeof h === 'SOME';<br>
+it = typeof i === 'SOME';<br>
+jt = typeof j === 'SOME';<br>
 
-alert(at && bt && ct && dt && et && ft && gt && ht && it && jt);
+alert(at && bt && ct && dt && et && ft && gt && ht && it && jt);<br>
 
 Задание №5.<br>
 Поменяйте код так, чтобы каждая переменная была объявлена до того, как ей присвоено значение.<br>
@@ -53,19 +53,19 @@ alert(at && bt && ct && dt && et && ft && gt && ht && it && jt);
 И никогда не используйте var.<br>
 Исходный код:
 
-NDS = 0.20
-NDFL = 0.13
-EXCISE = 0.1
-RENT = 40000
-FOOD = 15000
-OTHER = 15000
-MY_SALARY = 120000
+NDS = 0.20<br>
+NDFL = 0.13<br>
+EXCISE = 0.1<br>
+RENT = 40000<br>
+FOOD = 15000<br>
+OTHER = 15000<br>
+MY_SALARY = 120000<br>
 
-ndflTax = MY_SALARY _ NDFL;
-mySalaryNet = MY_SALARY - ndflTax;
-otherTaxes = mySalaryNet _ (NDS + EXCISE);
-totalAvailable = mySalaryNet - otherTaxes;
-totalAvailable -= FOOD + OTHER + RENT
-alert('Зарплата ' + MY_SALARY + ' рублей')
-alert('Уплачено налогов на сумму ' + (ndflTax + otherTaxes) + ' рублей')
-alert('Осталось ' + totalAvailable + ' рублей')
+ndflTax = MY_SALARY _ NDFL;<br>
+mySalaryNet = MY_SALARY - ndflTax;<br>
+otherTaxes = mySalaryNet _ (NDS + EXCISE);<br>
+totalAvailable = mySalaryNet - otherTaxes;<br>
+totalAvailable -= FOOD + OTHER + RENT<br>
+alert('Зарплата ' + MY_SALARY + ' рублей')<br>
+alert('Уплачено налогов на сумму ' + (ndflTax + otherTaxes) + ' рублей')<br>
+alert('Осталось ' + totalAvailable + ' рублей')<br>
